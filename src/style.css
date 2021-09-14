@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='555' preserveAspectRatio='none' viewBox='0 0 1440 555'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1097%26quot%3b)' fill='none'%3e%3crect width='1440' height='555' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1488 555L0 555 L0 381.82Q27.91 337.73%2c 72 365.63Q89.53 311.16%2c 144 328.7Q191.23 303.93%2c 216 351.16Q272.38 335.54%2c 288 391.92Q298.37 330.29%2c 360 340.66Q428.88 289.54%2c 480 358.41Q529.81 336.22%2c 552 386.03Q566.44 328.47%2c 624 342.91Q699.05 297.96%2c 744 373.01Q791.14 348.15%2c 816 395.29Q824.75 332.05%2c 888 340.8Q959.28 292.09%2c 1008 363.37Q1081.79 317.16%2c 1128 390.95Q1135.14 326.1%2c 1200 333.24Q1271.13 332.38%2c 1272 403.51Q1297.89 357.4%2c 1344 383.29Q1366.13 333.42%2c 1416 355.55Q1446.32 313.87%2c 1488 344.19z' fill='rgba(7%2c 62%2c 173%2c 1)'%3e%3c/path%3e%3cpath d='M1464 555L0 555 L0 397.7Q37.8 363.5%2c 72 401.29Q142.26 351.55%2c 192 421.81Q242.9 400.71%2c 264 451.61Q268.92 384.53%2c 336 389.46Q402.97 384.43%2c 408 451.4Q452.48 375.88%2c 528 420.36Q547.51 367.88%2c 600 387.39Q645.01 360.4%2c 672 405.41Q739.84 353.25%2c 792 421.09Q845.24 402.33%2c 864 455.57Q865.67 385.24%2c 936 386.91Q992.91 371.83%2c 1008 428.74Q1060.47 361.21%2c 1128 413.67Q1178.33 392%2c 1200 442.33Q1211.1 381.43%2c 1272 392.53Q1339.24 339.76%2c 1392 407Q1436.12 379.12%2c 1464 423.24z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1536 555L0 555 L0 459.66Q69.21 408.88%2c 120 478.09Q197.32 435.41%2c 240 512.73Q294.45 447.18%2c 360 501.63Q371.13 440.75%2c 432 451.88Q507.98 407.86%2c 552 483.84Q582.48 442.32%2c 624 472.8Q673.63 402.43%2c 744 452.06Q823.46 411.52%2c 864 490.98Q918.87 425.85%2c 984 480.71Q1031.45 408.16%2c 1104 455.61Q1165.28 444.88%2c 1176 506.16Q1229.86 440.02%2c 1296 493.88Q1335.13 413.01%2c 1416 452.15Q1481.45 397.6%2c 1536 463.04z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1464 555L0 555 L0 540.24Q61.94 482.18%2c 120 544.13Q142.46 494.59%2c 192 517.05Q259.5 464.55%2c 312 532.05Q332.14 480.19%2c 384 500.34Q472.34 468.68%2c 504 557.03Q517.21 498.24%2c 576 511.45Q643.31 458.76%2c 696 526.07Q753.63 511.7%2c 768 569.32Q794 475.32%2c 888 501.32Q957.11 450.43%2c 1008 519.54Q1071.05 510.59%2c 1080 573.64Q1097.58 519.22%2c 1152 536.8Q1175.13 487.92%2c 1224 511.05Q1313.07 480.12%2c 1344 569.19Q1395.96 501.15%2c 1464 553.11z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1097'%3e%3crect width='1440' height='555' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  display: grid;
+  place-items: center center;
+  font-family: 'Rancho', cursive;
+  font-weight: 800;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-container {
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.644);
+  padding: 3rem;
+  font-size: 3rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
+  max-width: 900px;
+  text-align: center;
+  color: rgb(25, 5, 136);
+}
+
+.long-quote {
+  font-size: 2.3rem;
+}
+
+.quote-author {
+  margin-right: 10px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+  padding: 10px;
+  opacity: .8;
+}
+
+.icon-quote {
+  font-size: 3rem;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 300;
+  background-color: rgba(55, 54, 61, 0.712);
+  color: white;
+  padding: .5rem 1.1rem;
+  border: none;
+  font-size: 1.5rem;
+  box-shadow:0 .3rem rgba(121, 120, 120, 0.548) ;
+  border-radius: 10px;
+  transition: all .4s;
+  outline: none;
+  font-family: inherit;
+
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+button:active {
+  box-shadow: none;
+  transform: translateY(10%);
+  outline: none;
+}
+.fa-twitter {
+  transition: all .2s;
+}
+button:hover .fa-twitter {
+  color: rgb(0, 204, 255);
+}
+
+.spinner {
+  animation: spinner 1s infinite;
+  display: block;
+  border: .5rem solid #fff;
+  border-bottom: .5rem solid transparent;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+@keyframes spinner {
+  to{
+    transform: rotate(360deg); 
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .quote-container {
+    font-size: 1.7rem;
+  }
+  
+  .spinner {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .long-quote,
+  .quote-author {
+    font-size: 1.4rem;
+  }
+  
+  button {
+    font-size: 1.1rem;
+    padding: .5rem .8rem;
+  }
+  .icon-quote {
+    font-size: 2rem;
+  }
+}
+
